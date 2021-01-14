@@ -1,0 +1,223 @@
+<div *ngIf="blackimg"  class="black" >
+
+</div> 
+
+
+<div *ngIf="lightison">
+        
+<button type="submit" class="wed-primary"  (click)="lightson()" >let's Switch On Lights</button>
+</div>
+
+
+
+<div *ngIf="lighton" class="peach" id="element">
+       <app-snow></app-snow> 
+<div class="row" >
+<div class="col-sm-2 col-md-2 col-lg-2" >
+<img  id="element" onclick="changeImage()" src="/assets/bulb_blue.png" width="100" height="100" >
+        </div>
+        <div class="col-sm-2 col-md-2 col-lg-2" >
+<img  id="element" onclick="changeImage()" src="/assets/bulb_green.png" width="100" height="100">
+</div>
+<div class="col-sm-2 col-md-2 col-lg-2" >
+<img  id="element" onclick="changeImage()" src="/assets/bulb_orange.png" width="100" height="100">
+</div>
+<div class="col-sm-2 col-md-2 col-lg-2" >
+<img  id="element" onclick="changeImage()" src="/assets/bulb_pink.png" width="100" height="100">
+</div>
+<div class="col-sm-2 col-md-2 col-lg-2" >
+<img  id="element" onclick="changeImage()" src="/assets/bulb_red.png" width="100" height="100">
+</div>
+<div class="col-sm-2 col-md-2 col-lg-2" >
+<img  id="element" onclick="changeImage()" src="/assets/bulb_yellow.png" width="100" height="100">
+</div>
+
+
+</div>
+
+
+ <div *ngIf="surpriseflag" class="fast text" style="margin-top: 220px;">
+<p>SURPRISE</p>
+</div> 
+
+<div *ngIf="imageflag" class="fast text" style="margin-top: 10px;margin-left:400px">
+        <img src="/assets/banner.png" > 
+
+        <div class="row">
+                        <div  class="balloon"><span style="  margin-top: 33px;position: absolute;margin-left: 39px;font-size: 47px;">H</span></div>
+                        <div class="balloon"><span style="  margin-top: 33px;position: absolute;margin-left: 39px;font-size: 47px;">B</span></div>
+                        <div class="balloon"><span style="  margin-top: 33px;position: absolute;margin-left: 39px;font-size: 47px;">D</span></div>
+                      
+                        
+                        </div>
+
+                        <div class="row" style="margin-left:-330px">
+
+                                        <div class="balloon"><span style="  margin-top: 33px;position: absolute;margin-left: 39px;font-size: 47px;">P</span></div>
+                                        <div class="balloon"><span style="  margin-top: 33px;position: absolute;margin-left: 39px;font-size: 47px;">R</span></div>
+                                        <div class="balloon"><span style="  margin-top: 33px;position: absolute;margin-left: 39px;font-size: 47px;">A</span></div>
+                                        <div class="balloon"><span style="  margin-top: 33px;position: absolute;margin-left: 39px;font-size: 47px;">T</span></div>
+                                         <div class="balloon"><span style="  margin-top: 33px;position: absolute;margin-left: 39px;font-size: 47px;">E</span></div> 
+                                        <div class="balloon"><span style="  margin-top: 33px;position: absolute;margin-left: 39px;font-size: 47px;">E</span></div>
+                                        <div class="balloon"><span style="  margin-top: 33px;position: absolute;margin-left: 39px;font-size: 47px;">K</span></div>
+
+                        </div>
+
+
+        </div> 
+
+        <div *ngIf="cakeflag" class="fast text" style="margin-top: 130px;margin-left:570px">
+                <img src="/assets/cake.png" class="cakeimage "> 
+                </div> 
+
+                <div *ngIf="blowcandles" style="margin-top: 70px;margin-left:560px">
+                        <img  src="/assets/boy_candle.jpg" class="blowcandles "> 
+                        </div> 
+
+                        <div *ngIf="finalmessageflag">
+                         <p  *ngIf="showContent" class="messageforu">Today is...</p>
+                                <p *ngIf="showContent1" class="messageforu">as beautiful as other days</p>
+                                <p *ngIf="showContent2" class="messageforu">but you realize</p>
+                                 <p *ngIf="showContent3" class="messageforu">another year has gone</p>
+                                <p *ngIf="showContent4" class="messageforu">in a blink of the eyes</p>
+                                <p *ngIf="showContent5" class="messageforu"><strong>however</strong></p> 
+                                 <p *ngIf="showContent6" class="messageforu">Do you know..?</p>
+                                <p *ngIf="showContent7" class="messageforu">today is just special</p>
+                                <p *ngIf="showContent8" class="messageforu">so special to you</p>
+                                <p *ngIf="showContent9" class="messageforu">that's why</p>
+                                <p *ngIf="showContent10" class="messageforu">Let's make it...</p>
+                                <p *ngIf="showContent11" class="messageforu">the best celebration ever</p>
+                                <p *ngIf="showContent12"  class="messageforu">and let me share...</p>
+                                <p *ngIf="showContent13" class="messageforu">a piece of happiness to you</p>
+                                <p *ngIf="showContent14" class="messageforu">I made all this...</p>
+                                <p *ngIf="showContent15" class="messageforu">as a birthday present to you</p>
+                                <p *ngIf="showContent16" class="messageforu">thanks for being there</p>
+                                <p *ngIf="showContent17" class="messageforu">thanks for the friendship we made</p>
+                                <p *ngIf="showContent18" class="messageforu">thanks for everything</p>
+                                <p *ngIf="showContent19" class="messageforu">I wish you all the best</p>
+                                <p *ngIf="showContent20" class="messageforu" >May your life be at ease</p>
+                                <p *ngIf="showContent21" class="messageforu">May all your wishes come true</p>
+                                <!-- <p *ngIf="showContent22" class="messageforu">Remember</p>
+                                <p *ngIf="showContent23" class="messageforu">your ambitions</p>
+                                <p *ngIf="showContent24" class="messageforu">you live as a free bird...</p>
+                                <p *ngIf="showContent25" class="messageforu">flying in the blue sky</p>
+                                <p *ngIf="showContent26" class="messageforu">Now things are different...</p>
+                                <p *ngIf="showContent27" class="messageforu">real story of your life</p>
+                                <p *ngIf="showContent28" class="messageforu">is just about to begin</p>
+                                <p *ngIf="showContent29" class="messageforu">indeed..</p>
+                                <p *ngIf="showContent30"class="messageforu">but...</p>
+                                <p *ngIf="showContent31" class="messageforu">don't worry</p>
+                                <p *ngIf="showContent32" class="messageforu">because...</p>
+                                <p *ngIf="showContent33" class="messageforu">God has your back</p>
+                                <p *ngIf="showContent34" class="messageforu">and</p>
+                                <p *ngIf="showContent35" class="messageforu">this year will be better</p>s
+                                <p *ngIf="showContent36"class="messageforu">and I hope</p>
+                                <p *ngIf="showContent37" class="messageforu">you'll find...</p>
+                                <p *ngIf="showContent38" class="messageforu">happiness along the way</p>
+                                <p *ngIf="showContent39"class="messageforu">keep your spirit up</p>
+                                <p *ngIf="showContent40" class="messageforu">enjoy every single moment...</p>
+                                <p *ngIf="showContent41"class="messageforu">that you experience today</p>
+                                <p *ngIf="showContent42" class="messageforu">fill it with your most beautiful smile</p>
+                                <p *ngIf="showContent43" class="messageforu">and make it the best memory..</p>
+                                <p *ngIf="showContent44" class="messageforu">lastly...</p>
+                                <p *ngIf="showContent45"class="messageforu">I'd like to wish you one more time</p> -->
+                                <p *ngIf="showContent46" class="messageforu"><strong>HAPPY BIRTHDAY Prateek </strong></p>   
+                        
+                                <div *ngIf="showContent47">
+                                <!-- <app-message></app-message> -->
+                        </div>
+</div>
+
+<div *ngIf="thankuflag" >
+
+                <div *ngIf="memories" >
+                <button type="submit" class="wed-primary-1" [disabled]=buttondisabled (click)="memoriesevent()" >See Your Memories Now</button>       
+                </div>                       
+                                        
+                 <div *ngIf="showimagesflag">                        
+                <img  *ngIf="showContent50" src="/assets/pv/1.jpg" class="myimg" > 
+                <img *ngIf="showContent51" src="/assets/pv/2.jpg" class="myimg" > 
+                <img *ngIf="showContent52" src="/assets/pv/3.jpg" class=" myimg "> 
+                <img *ngIf="showContent53" src="/assets/pv/4.jpg" class=" myimg"> 
+                <img *ngIf="showContent54" src="/assets/pv/5.jpg" class=" myimg "> 
+                <img *ngIf="showContent55" src="/assets/pv/6.JPG" class=" myimg"> 
+                <img *ngIf="showContent56" src="/assets/pv/7.JPG" class=" myimg "> 
+
+                <img  *ngIf="showContent57" src="/assets/pv/8.JPG" class="myimg" > 
+                <img *ngIf="showContent58" src="/assets/pv/9.JPG" class="myimg" > 
+                <img *ngIf="showContent59" src="/assets/pv/10.JPG" class=" myimg "> 
+                <img *ngIf="showContent60" src="/assets/pv/11.JPG" class=" myimg"> 
+                <img *ngIf="showContent61" src="/assets/pv/12.JPG" class=" myimg "> 
+                <img *ngIf="showContent62" src="/assets/pv/13.JPG" class=" myimg"> 
+                <!-- <img *ngIf="showContent63" src="/assets/pv/14.JPG" class=" myimg "> 
+
+                <img  *ngIf="showContent64" src="/assets/pv/15.JPG" class="myimg" > 
+                <img *ngIf="showContent65" src="/assets/pv/16.JPG" class="myimg" > 
+                <img *ngIf="showContent66" src="/assets/pv/17.JPG" class=" myimg "> 
+                <img *ngIf="showContent67" src="/assets/pv/18.JPG" class=" myimg"> 
+                <img *ngIf="showContent68" src="/assets/pv/19.JPG" class=" myimg "> 
+                <img *ngIf="showContent69" src="/assets/pv/20.JPG" class=" myimg"> 
+                <img *ngIf="showContent70" src="/assets/pv/21.JPG" class=" myimg "> 
+
+                <img  *ngIf="showContent71" src="/assets/pv/22.JPG" class="myimg" > 
+                <img *ngIf="showContent72" src="/assets/pv/23.JPG" class="myimg" > 
+                <img *ngIf="showContent73" src="/assets/pv/24.JPG" class=" myimg ">  -->
+                <div *ngIf="showContent74">
+                                <app-message></app-message> 
+                        </div>
+         </div>                      
+</div>
+
+
+
+<div *ngIf="happybirthdayflag" >
+             
+
+                <button style="margin-left:540px" type="submit" class="wed-primary-1" [disabled]=birthdaybutton (click)="memoriesevent()" >A VERY HAPPY BIRTHDAY PRATEEK</button> 
+</div>
+
+
+
+
+
+
+
+                <div *ngIf="musicflagbutton">
+<button type="submit" class="wed-primary-1"  (click)="playmusic()" >let's Play Music</button>
+                </div>
+</div>
+
+<div *ngIf="decorate">
+    
+        <button type="submit" class="wed-primary-1"  (click)="decorateEvent()" >Lets Decorate</button>       
+</div>
+
+
+
+<div *ngIf="banner" >
+<button type="submit" class="wed-primary-1"  (click)="getcakeevent()" >Let's Get Cake</button>       
+  </div>
+     
+  <div *ngIf="messageflag" >
+        <button type="submit" class="wed-primary-1"  (click)="blowCandlesevent()" >Blow The Candle's Now</button>       
+          </div>
+
+          <div *ngIf="messageforuflag" >
+                <button type="submit" class="wed-primary-1"  (click)="messageforuevent()" >Message For You</button>       
+                  </div>
+
+                
+
+<audio #audioOption loop>
+        <source src='../../../assets/hbd.mp3' type="audio/mp3">
+    </audio>
+
+
+
+ 
+    
+      
+
+
+
+
